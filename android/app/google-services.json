@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59705024854",
+    "project_id": "radar-90e28",
+    "storage_bucket": "radar-90e28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59705024854:android:3a2469be4b73b3285ab6f7",
+        "android_client_info": {
+          "package_name": "io.otabek.radar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59705024854-or0rtj2724u6637blas567d15kk8irjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT4ORNH-ip1aGBMs9BA-_WOp8mmwphsGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59705024854-or0rtj2724u6637blas567d15kk8irjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
