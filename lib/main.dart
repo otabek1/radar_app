@@ -49,10 +49,9 @@ class _AppState extends State<App> {
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
           return MaterialApp(
+            debugShowCheckedModeBanner: false,
             title: 'FlutterFire Demo',
-            home:  FireMap(),
-              
-            
+            home: FireMap(),
           );
         }
 

@@ -42,8 +42,8 @@ class FireMapState extends State<FireMap> {
   @override
   void initState() {
     _createMarkerImage("assets/cctv.png");
-    _createMarkerImage("assets/speed-radar-dark.png");
     _createMarkerImage("assets/electric_car.png");
+    _createMarkerImage("assets/speed-radar-dark.png");
     _createMarkerImage("assets/raid.png");
     _createMarkerImage("assets/gai.png");
     super.initState();
@@ -150,7 +150,7 @@ class FireMapState extends State<FireMap> {
           circles.clear();
           circles.add(Circle(
               circleId: CircleId("bad"),
-              center: LatLng(
+              center: LatLng( 
                   _currentPosition!.latitude, _currentPosition!.longitude),
               radius: 3000,
               fillColor: Colors.red[200]!,
@@ -221,7 +221,7 @@ class FireMapState extends State<FireMap> {
         break;
       case "car_radar":
         title = "Haraktlanuvchi Radar";
-        type_int = 2;
+        type_int =  2;
         break;
       case "raid":
         title = "Reyd";
